@@ -1,6 +1,8 @@
 ## fabric-react-testing
 
-This is where you include your WebPart documentation.
+The purpose of this repo is to test out individual components from
+
+https://developer.microsoft.com/en-us/fabric#/controls/web/
 
 ### Building the code
 

@@ -57,6 +57,30 @@
           "manifest": "./src/webparts/aDefaultReactWebPart/ADefaultReactWebPartWebPart.manifest.json"
         }
       ]
+    },
+    "a-color-picker-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aColorPickerReact/AColorPickerReactWebPart.js",
+          "manifest": "./src/webparts/aColorPickerReact/AColorPickerReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-swatch-color-picker-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aSwatchColorPickerReact/ASwatchColorPickerReactWebPart.js",
+          "manifest": "./src/webparts/aSwatchColorPickerReact/ASwatchColorPickerReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-detail-list-docs-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aDetailListDocsReact/ADetailListDocsReactWebPart.js",
+          "manifest": "./src/webparts/aDetailListDocsReact/ADetailListDocsReactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -67,6 +91,9 @@
     "AnImageReactWebPartStrings": "lib/webparts/anImageReact/loc/{locale}.js",
     "APivotReactWebPartStrings": "lib/webparts/aPivotReact/loc/{locale}.js",
     "AProgressIndicatorReactWebPartStrings": "lib/webparts/aProgressIndicatorReact/loc/{locale}.js",
-    "ADefaultReactWebPartWebPartStrings": "lib/webparts/aDefaultReactWebPart/loc/{locale}.js"
+    "ADefaultReactWebPartWebPartStrings": "lib/webparts/aDefaultReactWebPart/loc/{locale}.js",
+    "AColorPickerReactWebPartStrings": "lib/webparts/aColorPickerReact/loc/{locale}.js",
+    "ASwatchColorPickerReactWebPartStrings": "lib/webparts/aSwatchColorPickerReact/loc/{locale}.js",
+    "ADetailListDocsReactWebPartStrings": "lib/webparts/aDetailListDocsReact/loc/{locale}.js"
   }
 }

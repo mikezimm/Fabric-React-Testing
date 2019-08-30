@@ -9,10 +9,64 @@
           "manifest": "./src/webparts/aHelloWorldWebpart/AHelloWorldWebpartWebPart.manifest.json"
         }
       ]
+    },
+    "a-dialog-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aDialogReact/ADialogReactWebPart.js",
+          "manifest": "./src/webparts/aDialogReact/ADialogReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-panel-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aPanelReact/APanelReactWebPart.js",
+          "manifest": "./src/webparts/aPanelReact/APanelReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "an-image-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/anImageReact/AnImageReactWebPart.js",
+          "manifest": "./src/webparts/anImageReact/AnImageReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-pivot-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aPivotReact/APivotReactWebPart.js",
+          "manifest": "./src/webparts/aPivotReact/APivotReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-progress-indicator-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aProgressIndicatorReact/AProgressIndicatorReactWebPart.js",
+          "manifest": "./src/webparts/aProgressIndicatorReact/AProgressIndicatorReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-default-react-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aDefaultReactWebPart/ADefaultReactWebPartWebPart.js",
+          "manifest": "./src/webparts/aDefaultReactWebPart/ADefaultReactWebPartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "AHelloWorldWebpartWebPartStrings": "lib/webparts/aHelloWorldWebpart/loc/{locale}.js"
+    "AHelloWorldWebpartWebPartStrings": "lib/webparts/aHelloWorldWebpart/loc/{locale}.js",
+    "ADialogReactWebPartStrings": "lib/webparts/aDialogReact/loc/{locale}.js",
+    "APanelReactWebPartStrings": "lib/webparts/aPanelReact/loc/{locale}.js",
+    "AnImageReactWebPartStrings": "lib/webparts/anImageReact/loc/{locale}.js",
+    "APivotReactWebPartStrings": "lib/webparts/aPivotReact/loc/{locale}.js",
+    "AProgressIndicatorReactWebPartStrings": "lib/webparts/aProgressIndicatorReact/loc/{locale}.js",
+    "ADefaultReactWebPartWebPartStrings": "lib/webparts/aDefaultReactWebPart/loc/{locale}.js"
   }
 }

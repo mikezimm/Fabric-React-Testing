@@ -81,6 +81,14 @@
           "manifest": "./src/webparts/aDetailListDocsReact/ADetailListDocsReactWebPart.manifest.json"
         }
       ]
+    },
+    "a-inline-calendar-month-year-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aInlineCalendarMonthYearReact/AInlineCalendarMonthYearReactWebPart.js",
+          "manifest": "./src/webparts/aInlineCalendarMonthYearReact/AInlineCalendarMonthYearReactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -94,6 +102,7 @@
     "ADefaultReactWebPartWebPartStrings": "lib/webparts/aDefaultReactWebPart/loc/{locale}.js",
     "AColorPickerReactWebPartStrings": "lib/webparts/aColorPickerReact/loc/{locale}.js",
     "ASwatchColorPickerReactWebPartStrings": "lib/webparts/aSwatchColorPickerReact/loc/{locale}.js",
-    "ADetailListDocsReactWebPartStrings": "lib/webparts/aDetailListDocsReact/loc/{locale}.js"
+    "ADetailListDocsReactWebPartStrings": "lib/webparts/aDetailListDocsReact/loc/{locale}.js",
+    "AInlineCalendarMonthYearReactWebPartStrings": "lib/webparts/aInlineCalendarMonthYearReact/loc/{locale}.js"
   }
 }

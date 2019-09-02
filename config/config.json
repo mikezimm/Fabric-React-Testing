@@ -105,6 +105,14 @@
           "manifest": "./src/webparts/aHovercardElementReact/AHovercardElementReactWebPart.manifest.json"
         }
       ]
+    },
+    "a-tool-tip-list-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aToolTipListReact/AToolTipListReactWebPart.js",
+          "manifest": "./src/webparts/aToolTipListReact/AToolTipListReactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -121,6 +129,7 @@
     "ADetailListDocsReactWebPartStrings": "lib/webparts/aDetailListDocsReact/loc/{locale}.js",
     "AInlineCalendarMonthYearReactWebPartStrings": "lib/webparts/aInlineCalendarMonthYearReact/loc/{locale}.js",
     "ACalendarButtonYearMoWebPartStrings": "lib/webparts/aCalendarButtonYearMo/loc/{locale}.js",
-    "AHovercardElementReactWebPartStrings": "lib/webparts/aHovercardElementReact/loc/{locale}.js"
+    "AHovercardElementReactWebPartStrings": "lib/webparts/aHovercardElementReact/loc/{locale}.js",
+    "AToolTipListReactWebPartStrings": "lib/webparts/aToolTipListReact/loc/{locale}.js"
   }
 }

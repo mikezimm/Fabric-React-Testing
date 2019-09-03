@@ -121,6 +121,30 @@
           "manifest": "./src/webparts/aFixedWidthSearchWithEvent/AFixedWidthSearchWithEventWebPart.manifest.json"
         }
       ]
+    },
+    "a-basic-toggle-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aBasicToggleReact/ABasicToggleReactWebPart.js",
+          "manifest": "./src/webparts/aBasicToggleReact/ABasicToggleReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-checkbox-implimentation-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aCheckboxImplimentationReact/ACheckboxImplimentationReactWebPart.js",
+          "manifest": "./src/webparts/aCheckboxImplimentationReact/ACheckboxImplimentationReactWebPart.manifest.json"
+        }
+      ]
+    },
+    "a-basic-dropdown-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aBasicDropdownReact/ABasicDropdownReactWebPart.js",
+          "manifest": "./src/webparts/aBasicDropdownReact/ABasicDropdownReactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -139,6 +163,9 @@
     "ACalendarButtonYearMoWebPartStrings": "lib/webparts/aCalendarButtonYearMo/loc/{locale}.js",
     "AHovercardElementReactWebPartStrings": "lib/webparts/aHovercardElementReact/loc/{locale}.js",
     "AToolTipListReactWebPartStrings": "lib/webparts/aToolTipListReact/loc/{locale}.js",
-    "AFixedWidthSearchWithEventWebPartStrings": "lib/webparts/aFixedWidthSearchWithEvent/loc/{locale}.js"
+    "AFixedWidthSearchWithEventWebPartStrings": "lib/webparts/aFixedWidthSearchWithEvent/loc/{locale}.js",
+    "ABasicToggleReactWebPartStrings": "lib/webparts/aBasicToggleReact/loc/{locale}.js",
+    "ACheckboxImplimentationReactWebPartStrings": "lib/webparts/aCheckboxImplimentationReact/loc/{locale}.js",
+    "ABasicDropdownReactWebPartStrings": "lib/webparts/aBasicDropdownReact/loc/{locale}.js"
   }
 }

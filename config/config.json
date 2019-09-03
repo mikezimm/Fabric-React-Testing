@@ -113,6 +113,14 @@
           "manifest": "./src/webparts/aToolTipListReact/AToolTipListReactWebPart.manifest.json"
         }
       ]
+    },
+    "a-fixed-width-search-with-event-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aFixedWidthSearchWithEvent/AFixedWidthSearchWithEventWebPart.js",
+          "manifest": "./src/webparts/aFixedWidthSearchWithEvent/AFixedWidthSearchWithEventWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -130,6 +138,7 @@
     "AInlineCalendarMonthYearReactWebPartStrings": "lib/webparts/aInlineCalendarMonthYearReact/loc/{locale}.js",
     "ACalendarButtonYearMoWebPartStrings": "lib/webparts/aCalendarButtonYearMo/loc/{locale}.js",
     "AHovercardElementReactWebPartStrings": "lib/webparts/aHovercardElementReact/loc/{locale}.js",
-    "AToolTipListReactWebPartStrings": "lib/webparts/aToolTipListReact/loc/{locale}.js"
+    "AToolTipListReactWebPartStrings": "lib/webparts/aToolTipListReact/loc/{locale}.js",
+    "AFixedWidthSearchWithEventWebPartStrings": "lib/webparts/aFixedWidthSearchWithEvent/loc/{locale}.js"
   }
 }

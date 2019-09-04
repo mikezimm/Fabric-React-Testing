@@ -169,6 +169,14 @@
           "manifest": "./src/webparts/aBunchOfFunctionComponentsReact/ABunchOfFunctionComponentsReactWebPart.manifest.json"
         }
       ]
+    },
+    "a-toggle-tsx-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aToggleTsxReact/AToggleTsxReactWebPart.js",
+          "manifest": "./src/webparts/aToggleTsxReact/AToggleTsxReactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -193,6 +201,7 @@
     "ABasicDropdownReactWebPartStrings": "lib/webparts/aBasicDropdownReact/loc/{locale}.js",
     "ADetailListCompactReactWebPartStrings": "lib/webparts/aDetailListCompactReact/loc/{locale}.js",
     "ADetailListGroupedReactWebPartStrings": "lib/webparts/aDetailListGroupedReact/loc/{locale}.js",
-    "ABunchOfFunctionComponentsReactWebPartStrings": "lib/webparts/aBunchOfFunctionComponentsReact/loc/{locale}.js"
+    "ABunchOfFunctionComponentsReactWebPartStrings": "lib/webparts/aBunchOfFunctionComponentsReact/loc/{locale}.js",
+    "AToggleTsxReactWebPartStrings": "lib/webparts/aToggleTsxReact/loc/{locale}.js"
   }
 }

@@ -1,8 +1,10 @@
 ## fabric-react-testing
 
-The purpose of this repo is to test out individual components from
+The purpose of this repo is to test out individual Fabric React components from
 
 https://developer.microsoft.com/en-us/fabric#/controls/web/
+
+in SPFx Webparts.  Each UI Component is a separate webpart that can be added to a page.
 
 ### Building the code
 

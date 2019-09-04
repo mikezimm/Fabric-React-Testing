@@ -1,7 +1,12 @@
-// Need a default export to run this as is.
 
-/*
 import * as React from 'react';
+import styles from './ABasicDropdownReact.module.scss';
+import { IABasicDropdownReactProps } from './IABasicDropdownReactProps';
+import { escape } from '@microsoft/sp-lodash-subset';
+
+// VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+//Added this for Basic Dropdown:  https://developer.microsoft.com/en-us/fabric#/controls/web/dropdown
+
 import { IStackTokens, Stack } from 'office-ui-fabric-react/lib/Stack';
 import { Dropdown, DropdownMenuItemType, IDropdownStyles, IDropdownOption } from 'office-ui-fabric-react/lib/Dropdown';
 
@@ -24,8 +29,7 @@ const options: IDropdownOption[] = [
 
 const stackTokens: IStackTokens = { childrenGap: 20 };
 
-
-export const DropdownBasicExample: React.StatelessComponent = () => {
+const DropdownBasicExample: React.StatelessComponent = () => {
   return (
     <Stack tokens={stackTokens}>
       <Dropdown 
@@ -55,13 +59,8 @@ export const DropdownBasicExample: React.StatelessComponent = () => {
   );
 };
 
+// ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-*/
-
-import * as React from 'react';
-import styles from './ABasicDropdownReact.module.scss';
-import { IABasicDropdownReactProps } from './IABasicDropdownReactProps';
-import { escape } from '@microsoft/sp-lodash-subset';
 
 export default class ABasicDropdownReact extends React.Component<IABasicDropdownReactProps, {}> {
   public render(): React.ReactElement<IABasicDropdownReactProps> {
@@ -76,6 +75,10 @@ export default class ABasicDropdownReact extends React.Component<IABasicDropdown
               <a href="https://developer.microsoft.com/en-us/fabric#/controls/web/dropdown" target="_blank" className={ styles.button }>
                 <span className={ styles.label }>Fabric UI Docs</span>
               </a>
+
+              <br/><br/>
+              <DropdownBasicExample />
+
             </div>
           </div>
         </div>

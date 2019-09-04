@@ -161,6 +161,14 @@
           "manifest": "./src/webparts/aDetailListGroupedReact/ADetailListGroupedReactWebPart.manifest.json"
         }
       ]
+    },
+    "a-bunch-of-function-components-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aBunchOfFunctionComponentsReact/ABunchOfFunctionComponentsReactWebPart.js",
+          "manifest": "./src/webparts/aBunchOfFunctionComponentsReact/ABunchOfFunctionComponentsReactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -184,6 +192,7 @@
     "ACheckboxImplimentationReactWebPartStrings": "lib/webparts/aCheckboxImplimentationReact/loc/{locale}.js",
     "ABasicDropdownReactWebPartStrings": "lib/webparts/aBasicDropdownReact/loc/{locale}.js",
     "ADetailListCompactReactWebPartStrings": "lib/webparts/aDetailListCompactReact/loc/{locale}.js",
-    "ADetailListGroupedReactWebPartStrings": "lib/webparts/aDetailListGroupedReact/loc/{locale}.js"
+    "ADetailListGroupedReactWebPartStrings": "lib/webparts/aDetailListGroupedReact/loc/{locale}.js",
+    "ABunchOfFunctionComponentsReactWebPartStrings": "lib/webparts/aBunchOfFunctionComponentsReact/loc/{locale}.js"
   }
 }

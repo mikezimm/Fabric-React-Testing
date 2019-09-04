@@ -153,6 +153,14 @@
           "manifest": "./src/webparts/aDetailListCompactReact/ADetailListCompactReactWebPart.manifest.json"
         }
       ]
+    },
+    "a-detail-list-grouped-react-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aDetailListGroupedReact/ADetailListGroupedReactWebPart.js",
+          "manifest": "./src/webparts/aDetailListGroupedReact/ADetailListGroupedReactWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -175,6 +183,7 @@
     "ABasicToggleReactWebPartStrings": "lib/webparts/aBasicToggleReact/loc/{locale}.js",
     "ACheckboxImplimentationReactWebPartStrings": "lib/webparts/aCheckboxImplimentationReact/loc/{locale}.js",
     "ABasicDropdownReactWebPartStrings": "lib/webparts/aBasicDropdownReact/loc/{locale}.js",
-    "ADetailListCompactReactWebPartStrings": "lib/webparts/aDetailListCompactReact/loc/{locale}.js"
+    "ADetailListCompactReactWebPartStrings": "lib/webparts/aDetailListCompactReact/loc/{locale}.js",
+    "ADetailListGroupedReactWebPartStrings": "lib/webparts/aDetailListGroupedReact/loc/{locale}.js"
   }
 }
